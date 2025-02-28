@@ -1,12 +1,12 @@
-// eslint.config.js (CommonJS, будет работать без "type": "module")
+
 module.exports = [
     {
-      ignores: ["node_modules/"], // Игнорируем node_modules
+      ignores: ["node_modules/"],
       languageOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
         globals: {
-          window: "readonly", // Вместо env.browser
+          window: "readonly", 
         },
       },
       rules: {
