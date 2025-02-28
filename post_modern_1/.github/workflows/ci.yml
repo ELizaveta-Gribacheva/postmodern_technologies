@@ -1,4 +1,3 @@
-
 name: CI Pipeline
 
 on: [push, pull_request]
@@ -18,14 +17,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm init -y
-          npm install jest
+          npm install
+          npm install jest eslint
+
+      - name: Lint code
+        run: npx eslint labby1.js || true
 
       - name: Run tests
-        run: npx jest
+        run: npx jest --ci --reporters=default --reporters=jest-junit
 
-      - name: Upload test results
+      - name: Export test results
         uses: actions/upload-artifact@v3
         with:
           name: test-results
-          path: test-results/results.json
+          path: ./junit.xml
