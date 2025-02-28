@@ -1,0 +1,33 @@
+name: CI Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install jest eslint
+
+      - name: Lint code
+        run: npx eslint labby1.js || true
+
+      - name: Run tests
+        run: npx jest --ci --reporters=default --reporters=jest-junit
+
+      - name: Export test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: ./junit.xml
