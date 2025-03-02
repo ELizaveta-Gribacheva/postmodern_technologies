@@ -20,8 +20,11 @@ jobs:
           npm install
           npm install jest --save-dev  
 
+      - name: Create test-results directory
+        run: mkdir -p test-results
+
       - name: Run tests
-        run: npx jest
+        run: npx jest --json --outputFile=test-results/results.json
 
       - name: Upload test results
         uses: actions/upload-artifact@v4  
