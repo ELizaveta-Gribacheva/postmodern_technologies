@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 
+        uses: actions/checkout@v4  
 
       - name: Set up Node.js
         uses: actions/setup-node@v4  
@@ -17,8 +17,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install  # Убираем `npm init -y`, так как пакет уже должен быть создан
-          npm install jest --save-dev  # Убеждаемся, что jest установлен
+          npm install
+          npm install jest --save-dev  
 
       - name: Run tests
         run: npx jest

@@ -1,4 +1,5 @@
 {
+
   "name": "post_modern_t",
   "version": "1.0.0",
   "description": "",
@@ -17,7 +18,11 @@
     "url": "https://github.com/ELizaveta-Gribacheva/postmodern_technologies/issues"
   },
   "homepage": "https://github.com/ELizaveta-Gribacheva/postmodern_technologies#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "eslint": "^9.21.0",
+    "jest-junit": "^16.0.0"
   }
 }
