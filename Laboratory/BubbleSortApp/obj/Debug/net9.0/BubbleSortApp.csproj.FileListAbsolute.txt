@@ -1,0 +1,14 @@
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/bin/Debug/net9.0/BubbleSortApp
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/bin/Debug/net9.0/BubbleSortApp.deps.json
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/bin/Debug/net9.0/BubbleSortApp.runtimeconfig.json
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/bin/Debug/net9.0/BubbleSortApp.dll
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/bin/Debug/net9.0/BubbleSortApp.pdb
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/BubbleSortApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/BubbleSortApp.AssemblyInfoInputs.cache
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/BubbleSortApp.AssemblyInfo.cs
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/BubbleSortApp.csproj.CoreCompileInputs.cache
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/BubbleSortApp.dll
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/refint/BubbleSortApp.dll
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/BubbleSortApp.pdb
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/BubbleSortApp.genruntimeconfig.cache
+/Users/elizavetagribacheva/RiderProjects/Laboratory/BubbleSortApp/obj/Debug/net9.0/ref/BubbleSortApp.dll

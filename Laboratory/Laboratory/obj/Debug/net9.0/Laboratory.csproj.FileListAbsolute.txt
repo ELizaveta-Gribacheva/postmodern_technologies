@@ -1,0 +1,14 @@
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/bin/Debug/net9.0/Laboratory
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/bin/Debug/net9.0/Laboratory.deps.json
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/bin/Debug/net9.0/Laboratory.runtimeconfig.json
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/bin/Debug/net9.0/Laboratory.dll
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/bin/Debug/net9.0/Laboratory.pdb
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/Laboratory.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/Laboratory.AssemblyInfoInputs.cache
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/Laboratory.AssemblyInfo.cs
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/Laboratory.csproj.CoreCompileInputs.cache
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/Laboratory.dll
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/refint/Laboratory.dll
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/Laboratory.pdb
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/Laboratory.genruntimeconfig.cache
+/Users/elizavetagribacheva/RiderProjects/Laboratory/Laboratory/obj/Debug/net9.0/ref/Laboratory.dll
