@@ -1,10 +1,23 @@
-﻿// SorterTests.cs
-
-namespace PatternWorkTest
+﻿namespace PatternWorkTest
 {
     [TestFixture]
     public class SorterTests
     {
+        [Test]
+        public void Decorators_Affect()
+        {
+            
+            int[] input = { 4, 2, 7, 1 };
+            int[] expected = { 1, 2, 4, 7 };
+            var baseSorter = new BubbleSorter();
+            
+            ISorter decoratedSorter = new LoggingSorter(new TimingSorter(baseSorter));
+
+            decoratedSorter.Sort(input);
+
+            Assert.That(input, Is.EqualTo(expected));
+        }
+
         [Test]
         public void BubbleSorter_SortsCorrectly()
         {
@@ -63,5 +76,7 @@ namespace PatternWorkTest
             Assert.That(log.Contains("Час сортування"), Is.True);
             Assert.That(log.Contains("Сортування завершено"), Is.True);
         }
+         
+
     }
 }
