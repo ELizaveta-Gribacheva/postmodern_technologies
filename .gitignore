@@ -1,0 +1,14 @@
+node_modules/
+*.png
+.DS_Store
+*.json 
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.log
+TestResults/
