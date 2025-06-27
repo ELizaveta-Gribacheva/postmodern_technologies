@@ -11,4 +11,5 @@ obj/
 .vs/
 .idea/
 *.log
+
 TestResults/
